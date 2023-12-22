@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1703120569
+icon.svg::CompressedTexture2D::5653170027197388082::1703057010::1703057023::1::::<><>::
+main_scene.gd::GDScript::-1::1703061816::0::1::::<>Node2D<>::
+main_scene.tscn::PackedScene::9114907090794925485::1703120242::0::1::::<><>::res://main_scene.gd<>uid://bkermjqv7oved::::res://yijie.tscn
+pee.gd::GDScript::-1::1703061816::0::1::::<>CharacterBody2D<>::
+pee.tscn::PackedScene::2866202223682760607::1703120243::0::1::::<><>::uid://2t2crsujmyxo::::res://pixil-frame-0 (1).png<>res://pee.gd
+pixil-frame-0 (1).png::CompressedTexture2D::1935965807571182060::1703057444::1703057445::1::::<><>::
+pixil-frame-0 (2).png::CompressedTexture2D::9139247265007109976::1703057444::1703057445::1::::<><>::
+pixil-frame-0.png::CompressedTexture2D::8534385024374526386::1703057444::1703057445::1::::<><>::
+shit.gd::GDScript::-1::1703061816::0::1::::<>CharacterBody2D<>::
+shit.tscn::PackedScene::2231668702606148721::1703120243::0::1::::<><>::uid://d3hecjw8w0fwq::::res://pixil-frame-0 (2).png<>res://shit.gd
+yijie.gd::GDScript::-1::1703120242::0::1::::<>CharacterBody2D<>::
+yijie.tscn::PackedScene::3097620747918055919::1703120242::0::1::::<><>::res://yijie.gd<>uid://dtuecscwril8u::::res://pixil-frame-0.png
+傻逼.png::CompressedTexture2D::2047762557668467551::1703120569::1703120570::1::::<><>::

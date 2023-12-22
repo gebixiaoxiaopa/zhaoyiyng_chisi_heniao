@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkermjqv7oved"]
+
+[ext_resource type="Script" path="res://yijie.gd" id="1_xds51"]
+[ext_resource type="Texture2D" uid="uid://4f7l51avg1wl" path="res://傻逼.png" id="2_h4erp"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8b3ft"]
+radius = 35.0
+height = 108.0
+
+[node name="yijie" type="CharacterBody2D"]
+script = ExtResource("1_xds51")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_h4erp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_8b3ft")

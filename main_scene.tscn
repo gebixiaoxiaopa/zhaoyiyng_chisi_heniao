@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://d24lgnole5wu4"]
+
+[ext_resource type="Script" path="res://main_scene.gd" id="1_3dpcc"]
+[ext_resource type="PackedScene" uid="uid://bkermjqv7oved" path="res://yijie.tscn" id="1_g742i"]
+
+[node name="main_scene" type="Node2D"]
+script = ExtResource("1_3dpcc")
+metadata/_edit_horizontal_guides_ = [639.0, 0.0]
+metadata/_edit_vertical_guides_ = [648.0, 647.0]
+
+[node name="yijie" parent="." instance=ExtResource("1_g742i")]
+position = Vector2(302, 300)
+
+[node name="object_spawn_manager" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[connection signal="timeout" from="object_spawn_manager" to="." method="_on_object_spawn_manager_timeout"]
