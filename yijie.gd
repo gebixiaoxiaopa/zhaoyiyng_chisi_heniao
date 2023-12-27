@@ -1,12 +1,16 @@
 extends CharacterBody2D
+signal died()
 var Speed = 20
-
+var health = 20
 var Score=0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
 
-
+func kill():
+	if Yijie.health<=0:
+		
+		get_tree().quit()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	player_movement()
@@ -34,3 +38,4 @@ func player_movement() -> void:
 		self.global_position.y=0
 	elif self.global_position.y <0:
 		self.global_position.y=648
+	kill()

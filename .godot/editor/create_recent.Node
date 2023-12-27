@@ -1,9 +1,10 @@
-Label
 CollisionShape2D
+Label
+Button
 Area2D
+Sprite2D
 CharacterBody2D
 Node2D
 Timer
-Sprite2D
 StaticBody2D
 CollisionPolygon2D

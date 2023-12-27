@@ -6,10 +6,13 @@
 [node name="main_scene" type="Node2D"]
 script = ExtResource("1_3dpcc")
 metadata/_edit_horizontal_guides_ = [639.0, 0.0]
-metadata/_edit_vertical_guides_ = [648.0, 647.0]
+metadata/_edit_vertical_guides_ = [648.0, 647.0, 1119.0]
 
 [node name="yijie" parent="." instance=ExtResource("1_g742i")]
 position = Vector2(302, 300)
+
+[node name="black_fan_spawn_manager" type="Timer" parent="."]
+wait_time = 0.5
 
 [node name="object_spawn_manager" type="Timer" parent="."]
 
@@ -17,4 +20,11 @@ position = Vector2(302, 300)
 offset_right = 40.0
 offset_bottom = 23.0
 
+[node name="Label2" type="Label" parent="."]
+offset_left = 537.0
+offset_right = 577.0
+offset_bottom = 23.0
+
+[connection signal="died" from="yijie" to="." method="_on_yijie_died"]
+[connection signal="timeout" from="black_fan_spawn_manager" to="." method="_on_black_fan_spawn_manager_timeout"]
 [connection signal="timeout" from="object_spawn_manager" to="." method="_on_object_spawn_manager_timeout"]

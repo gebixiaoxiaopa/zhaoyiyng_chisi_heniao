@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://crx7ue3bsf200"]
+
+[ext_resource type="Script" path="res://items/classes/health.gd" id="1_h2jo5"]
+[ext_resource type="Texture2D" uid="uid://dtuecscwril8u" path="res://items/texture/health.png" id="2_8n8lg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_62ryq"]
+radius = 4.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4ciwg"]
+radius = 4.5
+
+[node name="health" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_h2jo5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_8n8lg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_62ryq")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_4ciwg")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

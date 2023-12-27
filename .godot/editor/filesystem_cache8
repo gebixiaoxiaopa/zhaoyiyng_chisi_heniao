@@ -1,15 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703120569
+::res://::1703654363
+export_presets.cfg::TextFile::-1::1703321836::0::1::::<><>::
 icon.svg::CompressedTexture2D::5653170027197388082::1703057010::1703057023::1::::<><>::
-main_scene.gd::GDScript::-1::1703061816::0::1::::<>Node2D<>::
-main_scene.tscn::PackedScene::9114907090794925485::1703120242::0::1::::<><>::res://main_scene.gd<>uid://bkermjqv7oved::::res://yijie.tscn
-pee.gd::GDScript::-1::1703061816::0::1::::<>CharacterBody2D<>::
-pee.tscn::PackedScene::2866202223682760607::1703120243::0::1::::<><>::uid://2t2crsujmyxo::::res://pixil-frame-0 (1).png<>res://pee.gd
-pixil-frame-0 (1).png::CompressedTexture2D::1935965807571182060::1703057444::1703057445::1::::<><>::
-pixil-frame-0 (2).png::CompressedTexture2D::9139247265007109976::1703057444::1703057445::1::::<><>::
-pixil-frame-0.png::CompressedTexture2D::8534385024374526386::1703057444::1703057445::1::::<><>::
-shit.gd::GDScript::-1::1703061816::0::1::::<>CharacterBody2D<>::
-shit.tscn::PackedScene::2231668702606148721::1703120243::0::1::::<><>::uid://d3hecjw8w0fwq::::res://pixil-frame-0 (2).png<>res://shit.gd
-yijie.gd::GDScript::-1::1703120242::0::1::::<>CharacterBody2D<>::
-yijie.tscn::PackedScene::3097620747918055919::1703120242::0::1::::<><>::res://yijie.gd<>uid://dtuecscwril8u::::res://pixil-frame-0.png
+main_scene.gd::GDScript::-1::1703653022::0::1::::<>Node2D<>::
+main_scene.tscn::PackedScene::9114907090794925485::1703654282::0::1::::<><>::res://main_scene.gd<>uid://bkermjqv7oved::::res://yijie.tscn
+Respawn.gd::GDScript::-1::1703391069::0::1::::<>Control<>::
+respawn.tscn::PackedScene::6409533295983559605::1703391069::0::1::::<><>::res://Respawn.gd
+yijie.gd::GDScript::-1::1703391290::0::1::::<>CharacterBody2D<>::
+yijie.tscn::PackedScene::3097620747918055919::1703653300::0::1::::<><>::res://yijie.gd<>uid://4f7l51avg1wl::::res://傻逼.png
 傻逼.png::CompressedTexture2D::2047762557668467551::1703120569::1703120570::1::::<><>::
+::res://icon/::1703654267
+::res://items/::1703385680
+::res://items/classes/::1703653301
+black_fan.gd::GDScript::-1::1703651909::0::1::::<>CharacterBody2D<>::
+black_fan.tscn::PackedScene::235227511070142423::1703653301::0::1::::<><>::res://items/classes/black_fan.gd<>uid://v2ar8g8ityir::::res://items/texture/black_fan.png
+health.gd::GDScript::-1::1703652266::0::1::::<>CharacterBody2D<>::
+health.tscn::PackedScene::6015511310640394559::1703653301::0::1::::<><>::res://items/classes/health.gd<>uid://dtuecscwril8u::::res://items/texture/health.png
+pee.gd::GDScript::-1::1703649836::0::1::::<>CharacterBody2D<>::
+pee.tscn::PackedScene::2866202223682760607::1703653300::0::1::::<><>::res://items/classes/pee.gd<>uid://2t2crsujmyxo::::res://items/texture/pee.png
+shit.gd::GDScript::-1::1703649836::0::1::::<>CharacterBody2D<>::
+shit.tscn::PackedScene::2231668702606148721::1703653300::0::1::::<><>::res://items/classes/shit.gd<>uid://d3hecjw8w0fwq::::res://items/texture/shit.png
+::res://items/texture/::1703654178
+black_fan.png::CompressedTexture2D::1529736018304892985::1703386706::1703386707::1::::<><>::
+health.png::CompressedTexture2D::8534385024374526386::1703385583::1703385666::1::::<><>::
+pee.png::CompressedTexture2D::1935965807571182060::1703057444::1703385666::1::::<><>::
+shit.png::CompressedTexture2D::9139247265007109976::1703057444::1703385666::1::::<><>::

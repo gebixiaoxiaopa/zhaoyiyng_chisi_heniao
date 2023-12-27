@@ -1,5 +1,7 @@
 res://main_scene.tscn
-res://yijie.gd
 res://yijie.tscn
-res://pee.tscn
-res://shit.tscn
+res://items/classes/pee.tscn
+res://items/classes/shit.tscn
+res://items/classes/health.tscn
+res://items/classes/black_fan.tscn
+res://main_scene.gd

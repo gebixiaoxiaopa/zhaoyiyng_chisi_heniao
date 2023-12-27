@@ -13,7 +13,8 @@ config_version=5
 config/name="一姐赵艺颖吃屎喝尿"
 run/main_scene="res://main_scene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://傻逼.png"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
